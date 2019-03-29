@@ -1,0 +1,120 @@
+body
+    margin: 5% auto
+    width: 60%
+    font-size: 20px
+    line-height: 1.8rem
+    font-family: 'Oxygen', sans-serif
+    color: rgb(87, 87, 87)
+    &.darkmode
+        background: rgb(57, 57, 57)
+        color: rgb(227, 227, 227)
+        a
+            color: rgb(227, 227, 227)
+
+.is-hidden
+    display: none
+
+.columns
+    display: flex
+
+a
+    color: rgb(48, 48, 48)
+    text-decoration: none
+    &:hover
+        cursor: pointer
+
+ul
+    padding-left: 0px
+
+pre
+    padding: 10px
+    font-size: 1rem
+    overflow: auto
+
+header
+    display: flex
+    justify-content: space-between
+    margin-bottom: 20px
+    font-size: 20px
+
+nav
+    display: flex
+    align-items: center
+    img
+        margin-right: 10px
+    a
+        font-size: 1.8rem
+    p
+        margin: 0px
+
+#theme
+    font-size: 1.5rem
+    &:hover
+        cursor: pointer
+
+.is-avatar
+    border-radius: 50%
+
+.posts
+    .title
+        font-size: 1.7rem
+        margin-bottom: 0px
+        &:hover
+            text-decoration: underline
+        a
+            display: block
+            width: 100%
+    .desc
+        margin: 5px 0
+
+.tags
+    font-size: 1rem
+    list-style: none
+    li
+        display: inline-block
+        padding: 0px 10px
+        border-radius: 3px
+        background: white
+    a
+        font-size: 0.8rem
+        color: rgb(45, 45, 45) !important
+    .tags-api
+        background: rgb(215, 215, 215)
+    .tags-css
+        background: rgb(83, 212, 200)
+    .tags-firebase
+        background: rgb(235, 190, 55)
+    .tags-go
+        background: rgb(89, 205, 255)
+    .tags-html
+        background: rgb(245, 108, 58)
+    .tags-javascript
+        background: rgb(212, 210, 83)
+    .tags-nodejs
+        background: rgb(142, 222, 138)
+    .tags-php
+        background: rgb(190, 50, 193)
+    .tags-python
+        background: rgb(60, 112, 246)
+    .tags-react
+        background: rgb(53, 152, 232)
+    .tags-share
+        background: rgb(230, 55, 107)
+    .tags-vue
+        background: rgb(92, 179, 108)
+    .tags-tool
+        background: rgb(186, 186, 186)
+
+
+@media only screen and (max-width: 760px)
+    body
+        width: 90%
+        font-size: 18px
+
+    .columns
+        display: block
+
+    nav
+        a
+            font-size: 1.5rem
+
